@@ -1,6 +1,6 @@
 // pls sort alphabetically by uri!
 const uris = {
-  dashboard: '/dashboard',
+  home: '/home',
   index: '/',
   legalPrivacy: '/legal-privacy',
   login: '/auth/login',

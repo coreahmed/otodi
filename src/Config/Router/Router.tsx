@@ -6,13 +6,8 @@ import Layout from '../../View/Layout/Index'
 export const routes = [
   // sort alphabetically by uris
   {
-    path: uris.dashboard,
-    Component: lazy(() => import(`../../Controller/Dashboard/Index`)),
-    exact: true,
-  },
-  {
-    path: uris.users,
-    Component: lazy(() => import(`../../Controller/Users/Index`)),
+    path: uris.home,
+    Component: lazy(() => import(`../../Controller/Home/Index`)),
     exact: true,
   },
 ]

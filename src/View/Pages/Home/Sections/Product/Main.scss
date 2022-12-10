@@ -1,0 +1,46 @@
+.product-main {
+  .banner-main {
+    .banner-area{
+    padding: 100px 0;
+}
+
+.banner-img{
+    position: relative;
+}
+
+.banner-content{
+    position: absolute;
+    z-index: 66;
+    top: 82px;
+    left: 35px;
+}
+
+.banner-content h5{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.banner-content h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    margin: 5px 0 15px;
+}
+
+.banner-content a{
+    display: inline-block;
+    font-weight: 500;
+    color: #333;
+    border-bottom: 1px solid #000;
+    transition: .4s;
+}
+
+.banner-content a:hover{
+    text-decoration: none;
+    color: #ffc107;
+    border-color: #ffc107;
+}
+  }
+}

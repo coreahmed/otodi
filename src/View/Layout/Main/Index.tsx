@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import './Index.scss'
 import ErrorBoundary from '../../../Config/ErrorHandler/ErrorBoundary'
+import FooterMain from "../Footer/Index";
 
 interface Props {
   children?: React.ReactNode
@@ -22,7 +23,9 @@ const LayoutMain: React.FC<Props> = ({ children }) => {
           topbar here.
         </div>
         <div className="main-content">{children}</div>
-        <div className="layout-footer">footer will be here.</div>
+        <div className="layout-footer">
+          <FooterMain />
+        </div>
       </div>
     </ErrorBoundary>
   )

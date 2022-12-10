@@ -32,7 +32,7 @@ const LayoutIndex: React.FC = () => {
                       <Route
                         exact
                         path={uris.index}
-                        render={(): ReactElement => <Redirect to={uris.dashboard} />}
+                        render={(): ReactElement => <Redirect to={uris.home} />}
                       />
                       {routes.map(({ path, Component, exact }) => (
                         <Route
