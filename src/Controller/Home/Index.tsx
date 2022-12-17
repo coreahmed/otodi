@@ -1,11 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import HomeMain from "../../View/Pages/Home/Main";
+import HomeMain from '../../View/Pages/Home/Main'
 
-const HomeIndex:React.FC = () => {
-  return (
-    <HomeMain />
-  );
-};
+const HomeIndex: React.FC = () => {
+  return <HomeMain />
+}
 
-export default HomeIndex;
+export default HomeIndex

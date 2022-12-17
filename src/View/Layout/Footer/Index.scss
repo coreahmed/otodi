@@ -26,18 +26,18 @@
 
           a {
             &:hover {
-            text-decoration: none;
-          }
+              text-decoration: none;
+            }
           }
         }
       }
 
       address {
-         .email {
-           color: #025ec2;
-           text-decoration: underline;
-            padding: 5px 0;
-         }
+        .email {
+          color: #025ec2;
+          text-decoration: underline;
+          padding: 5px 0;
+        }
 
         p {
           margin: 0;
@@ -45,7 +45,6 @@
         }
       }
     }
-
   }
 
   .footer-copy {
@@ -69,4 +68,4 @@
       }
     }
   }
-  }
+}

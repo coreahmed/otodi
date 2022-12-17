@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import './Index.scss'
 import ErrorBoundary from '../../../Config/ErrorHandler/ErrorBoundary'
-import FooterMain from "../Footer/Index";
+import FooterMain from '../Footer/Index'
 
 interface Props {
   children?: React.ReactNode

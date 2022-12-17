@@ -1,145 +1,109 @@
+
+
 .product-main {
   .banner-main {
-    .banner-area{
-    padding: 100px 0;
-}
+    .banner-area {
+      padding: 100px 0;
+    }
 
-.banner-img{
-    position: relative;
-}
+    .banner-img {
+      position: relative;
+    }
 
-.banner-content{
-    position: absolute;
-    z-index: 66;
-    top: 82px;
-    left: 35px;
-}
+    .banner-content {
+      position: absolute;
+      z-index: 66;
+      top: 82px;
+      left: 35px;
+    }
 
-.banner-content h5{
-    font-size: 12px;
-    font-weight: 500;
-    margin: 0;
-    text-transform: uppercase;
-}
+    .banner-content h5 {
+      font-size: 12px;
+      font-weight: 500;
+      margin: 0;
+      text-transform: uppercase;
+    }
 
-.banner-content h3{
-    font-size: 24px;
-    font-weight: 500;
-    font-family: Poppins, sans-serif;
-    margin: 5px 0 15px;
-}
+    .banner-content h3 {
+      font-size: 24px;
+      font-weight: 500;
+      font-family: Poppins, sans-serif;
+      margin: 5px 0 15px;
+    }
 
-.banner-content a{
-    display: inline-block;
-    font-weight: 500;
-    color: #333;
-    border-bottom: 1px solid #000;
-    transition: .4s;
-}
+    .banner-content a {
+      display: inline-block;
+      font-weight: 500;
+      color: #333;
+      border-bottom: 1px solid #000;
+      transition: 0.4s;
+    }
 
-.banner-content a:hover{
-    text-decoration: none;
-    color: #ffc107;
-    border-color: #ffc107;
-}
+    .banner-content a:hover {
+      text-decoration: none;
+      color: #ffc107;
+      border-color: #ffc107;
+    }
   }
 
-    .banner-furniture {
-        .banner-area-two{
-    padding-bottom: 100px;
-}
-
- img{
-    width: 100%;
-}
-
-.banner-area-two .banner-img{
-    position: relative;
-}
-
-.banner-area-two .banner-content{
-    position: absolute;
-    z-index: 66;
-    top: 50px;
-    left: 35px;
-}
-
-.banner-area-two .banner-content span{
-    font-size: 18px;
-    font-weight: 500;
-    color: #e97730;
-    margin: 0;
-}
-
-.banner-area-two .banner-content h2{
-    font-size: 36px;
-    font-weight: 600;
-    color: #414141;
-    margin: 5px 0 4px;
-}
-
-.banner-area-two .banner-content p{
-    width: 65%;
-    color: #414141;
-    margin: 0 0 19px;
-}
-
-.banner-area-two .banner-content a{
-    color: #fdfdfd;
-    background-color: #e97730;
-    padding: 6px 20px;
-    border: none;
-    transition: .4s;
-}
-
-.banner-area-two .banner-content a:hover{
-    background-color: #000;
-    color: #fff;
-}
-    }
-
-    .service-area {
-.service-area{
-    padding-bottom: 100px;
-}
-
-img{
-    width: 100%;
-}
-
-.service-area .serviece-wrap{
+  .banner-furniture {
+    width: 90%;
+    margin: auto;
     display: flex;
-}
+    justify-content: space-between;
 
-.service-area .serviece-wrap .img a{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #f2f2f2;
-    display: inline-block;
-    line-height: 60px;
-    text-align: center;
-    margin-right: 20px;
-    transition: .4s;
-}
+    .banner-offer {
+      position: relative;
 
-.service-area .serviece-wrap .img a img{
-    width: 40px;
-}
-
-.service-area .serviece-wrap .content h3{
-    font-size: 18px;
-    margin: 0 0 4px;
-    font-family: Poppins, sans-serif;
-}
-
-.service-area .serviece-wrap .img .content p{
-    color: #6a6a6a;
-    margin: 0;
-}
-
-.service-area .serviece-wrap:hover .img a{
-    background-color: #e97730;
-}
+      &-content {
+        position: absolute;
+      }
     }
+  }
+
+  .service-area {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .service {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+
+      &:hover {
+        .service-image {
+          background-color: #e97730;
+        }
+      }
+
+      .service-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        display: inline-block;
+        line-height: 60px;
+        text-align: center;
+        margin-right: 20px;
+        transition: 0.4s;
+      }
+
+      .content {
+        h3 {
+          font-size: 18px;
+          margin: 0 0 4px;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
 }
